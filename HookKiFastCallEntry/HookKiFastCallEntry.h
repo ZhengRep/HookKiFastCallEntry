@@ -1,7 +1,10 @@
 #pragma once
 #include <fltKernel.h>
-#include "LoadLibrary.h"
+#include <wdm.h>
+#include <ntddk.h>
 #include "CommonSetting.h"
+
+typedef NTSTATUS(NTAPI* LPFN_TERMINATEPROCESS)(IN HANDLE ProcessHandle, IN NTSTATUS ExitStatus);
 
 typedef struct _SYSTEM_SERVICE_DESCRIPTOR_TABLE
 {
@@ -132,20 +135,16 @@ typedef enum _SYSTEM_INFORMATION_CLASS
 } SYSTEM_INFORMATION_CLASS, * PSYSTEM_INFORMATION_CLASS;
 
 #define WPOFF() \
-				_asm{ \
-					cli \
-					mov eax, cr0 \
-					and eax, ~0x10000 \
-					mov cr0, eax \
-				} 
+		_asm{cli}\
+		_asm{mov eax, cr0}\
+		_asm{and eax, ~0x10000}\
+		_asm{mov cr0, eax}
 
-#define  WPON() \
-				_asm{ \
-					mov eax, cr0 \
-					or  eax, 0x10000 \
-					mov cr0, eax \
-					sti \
-				}
+#define WPON() \
+		_asm{mov eax, cr0}\
+		_asm{or eax, 0x10000}\
+		_asm{mov cr0, eax}\
+		_asm{sti}
 
 typedef NTSTATUS(NTAPI* LPFN_TERMINATEPROCESS)(IN HANDLE ProcessHandle, IN NTSTATUS ExitStatus);
 
@@ -155,11 +154,11 @@ extern NTSTATUS ZwQuerySystemInformation(
 	IN	ULONG		SystemInformationLength,
 	OUT PULONG		ReturnLength
 );
-extern UCHAR* PsGetProcessImageFileName(PEPROCESS EProcess);
+//extern NTSTATUS GetKernelModuleInfo(PCHAR ModuleName, PVOID ModuleBase, SIZE_T* ModuleSize);
+UCHAR* PsGetProcessImageFileName(PEPROCESS EProcess);
 NTSTATUS NTAPI FakeNtTerminateProcess(HANDLE ProcessHandle, NTSTATUS ExitStatus);
 PVOID CreateFakeKiServiceTable(IN PVOID VirtualAddress, IN PVOID ModuleBase);
-NTSTATUS GetKernelMoudleInfo(char* ModuleName, PVOID* ModuleBase, SIZE_T* ModuleSize);
-ULONG FindKey(PUCHAR KeyVaule, ULONG KeyLength, PUCHAR VirtualAddress, ULONG ViewSize);
+int FindKey(PUCHAR KeyVaule, ULONG KeyLength, PUCHAR VirtualAddress, ULONG ViewSize);
 VOID DriverUnload(PDRIVER_OBJECT DriverObject);
 
 VOID HookKiFastCall();

@@ -8,7 +8,7 @@ Class=Sample ; TODO: edit Class
 ClassGuid={78A1C341-4539-11d3-B88D-00C04FAD5171} ; TODO: edit ClassGuid
 Provider=%ManufacturerName%
 CatalogFile=HookKiFastCallEntry.cat
-DriverVer = 04/17/2022,16.27.1.583
+DriverVer = 04/17/2022,22.43.42.787
 
 [DestinationDirs]
 DefaultDestDir = 12

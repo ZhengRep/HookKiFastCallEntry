@@ -1,23 +1,123 @@
 ﻿  Building 'HookKiFastCallEntry' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
   Stamping x64\Debug\HookKiFastCallEntry.inf
-  Stamping [Version] section with DriverVer=04/17/2022,16.47.36.875
+  Stamping [Version] section with DriverVer=04/17/2022,22.19.40.691
   HookKiFastCallEntry.c
-  HookKiFastCallEntry.vcxproj -> E:\Vstudio2019\HookKiFastCallEntry\x64\Debug\HookKiFastCallEntry.sys
-  Done Adding Additional Store
-  Successfully signed: E:\Vstudio2019\HookKiFastCallEntry\x64\Debug\HookKiFastCallEntry.sys
-  
-  Driver is a Universal Driver.
-  .........................
-  Signability test complete.
-  
-  Errors:
-  None
-  
-  Warnings:
-  None
-  
-  Catalog generation complete.
-  E:\Vstudio2019\HookKiFastCallEntry\x64\Debug\HookKiFastCallEntry\hookkifastcallentry.cat
-  Done Adding Additional Store
-  Successfully signed: E:\Vstudio2019\HookKiFastCallEntry\x64\Debug\HookKiFastCallEntry\hookkifastcallentry.cat
-  
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(12,17): error C2485: “naked”: 无法识别的扩展特性
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(14,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(18,3): error C2065: “pushad”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(18,3): error C2146: 语法错误: 缺少“;”(在标识符“pushfd”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(19,3): error C2065: “pushfd”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(19,3): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(19,9): error C2065: “push”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(19,9): error C2146: 语法错误: 缺少“;”(在标识符“edx”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(20,3): error C2065: “edx”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(20,3): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(20,9): error C2065: “push”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(20,9): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(21,3): error C2065: “eax”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(21,3): error C2146: 语法错误: 缺少“;”(在标识符“push”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(21,9): error C2065: “push”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(21,9): error C2146: 语法错误: 缺少“;”(在标识符“edi”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(22,3): error C2065: “edi”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(22,3): error C2146: 语法错误: 缺少“;”(在标识符“call”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(22,9): error C2065: “call”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(22,9): error C2146: 语法错误: 缺少“;”(在标识符“FakeFunction”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(24,3): error C2065: “FakeFunction”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(24,3): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(24,6): error C2065: “mov”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(24,11): error C2065: “esp”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(24,17): error C2109: 下标要求数组或指针类型
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(25,3): error C2065: “eax”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(25,3): error C2146: 语法错误: 缺少“;”(在标识符“popfd”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(26,3): error C2065: “popfd”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(26,3): error C2146: 语法错误: 缺少“;”(在标识符“popad”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(28,3): error C2065: “popad”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(28,3): error C2146: 语法错误: 缺少“;”(在标识符“sub”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(28,11): error C2065: “sub”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(28,11): error C2146: 语法错误: 缺少“;”(在标识符“esp”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(28,14): error C2065: “esp”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(29,3): error C2065: “ecx”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(29,3): error C2146: 语法错误: 缺少“;”(在标识符“shr”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(29,11): error C2065: “shr”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(29,11): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(29,14): error C2065: “ecx”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(30,3): error C2146: 语法错误: 缺少“;”(在标识符“jmp”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(30,7): error C2065: “jmp”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(30,7): error C2146: 语法错误: 缺少“;”(在标识符“__HookKiFastCallEntry”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(31,2): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(41,6): error C4013: “GetKernelMoudleInfo”未定义；假设外部返回 int
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(45,89): warning C4047: “=”:“ULONG”与“PVOID”的间接级别不同
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(52,89): warning C4047: “=”:“ULONG”与“PVOID”的间接级别不同
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(56,31): warning C4047: “!=”:“ULONG”与“void *”的间接级别不同
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(58,28): warning C4022: “CreateFakeKiServiceTable”: 指针与实参 1 不匹配
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(68,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(70,7): error C2065: “mov”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(70,7): error C2146: 语法错误: 缺少“;”(在标识符“ecx”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(70,10): error C2065: “ecx”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(71,3): error C2146: 语法错误: 缺少“;”(在标识符“__readmsr”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(72,3): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(71,3): warning C4550: 表达式计算为缺少参数列表的函数
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(72,7): error C2065: “mov”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(72,7): error C2146: 语法错误: 缺少“;”(在标识符“KiFastCallEntry”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(73,2): error C2065: “eax”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(73,2): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(75,64): warning C4057: “函数”:“PUCHAR”与“char [8]”在稍微不同的基类型间接寻址上不同
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(75,91): warning C4057: “函数”:“PUCHAR”与“PCHAR”在稍微不同的基类型间接寻址上不同
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(92,30): warning C4047: “!=”:“ULONG”与“void *”的间接级别不同
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(94,3): warning C4022: “ExFreePoolWithTag”: 指针与实参 1 不匹配
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(95,26): warning C4047: “=”:“ULONG”与“void *”的间接级别不同
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(101,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(101,2): error C2065: “cli”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(101,2): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(101,2): error C2065: “mov”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(101,2): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(101,2): error C2065: “eax”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(101,2): error C2065: “cr0”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(101,2): error C2146: 语法错误: 缺少“;”(在标识符“and”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(101,2): error C2065: “and”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(101,2): error C2146: 语法错误: 缺少“;”(在标识符“cr0”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(101,2): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(104,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(104,2): error C2065: “mov”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(104,2): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(104,2): error C2065: “eax”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(104,2): error C2065: “cr0”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(104,2): error C2146: 语法错误: 缺少“;”(在标识符“or”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(104,2): error C2065: “or”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(104,2): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(104,2): error C2146: 语法错误: 缺少“;”(在标识符“cr0”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(104,2): error C2146: 语法错误: 缺少“;”(在标识符“sti”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(104,2): error C2065: “sti”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(104,2): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(109,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(109,2): error C2065: “cli”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(109,2): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(109,2): error C2065: “mov”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(109,2): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(109,2): error C2065: “eax”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(109,2): error C2065: “cr0”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(109,2): error C2146: 语法错误: 缺少“;”(在标识符“and”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(109,2): error C2065: “and”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(109,2): error C2146: 语法错误: 缺少“;”(在标识符“cr0”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(109,2): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(111,2): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(111,2): error C2065: “mov”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(111,2): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(111,2): error C2065: “eax”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(111,2): error C2065: “cr0”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(111,2): error C2146: 语法错误: 缺少“;”(在标识符“or”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(111,2): error C2065: “or”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(111,2): error C2146: 语法错误: 缺少“;”(在标识符“mov”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(111,2): error C2146: 语法错误: 缺少“;”(在标识符“cr0”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(111,2): error C2146: 语法错误: 缺少“;”(在标识符“sti”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(111,2): error C2065: “sti”: 未声明的标识符
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(111,2): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(163,64): warning C4047: “=”:“LPFN_TERMINATEPROCESS”与“ULONG”的间接级别不同
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(151,1): warning C4047: “初始化”:“PULONG”与“unsigned long”的间接级别不同
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(194,12): warning C4245: “return”: 从“int”转换到“ULONG”，有符号/无符号不匹配
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(216,13): warning C4245: “return”: 从“int”转换到“ULONG”，有符号/无符号不匹配
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(219,11): warning C4245: “return”: 从“int”转换到“ULONG”，有符号/无符号不匹配
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(224,13): error C2143: 语法错误: 缺少“;”(在“类型”的前面)
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.c(224,14): error C2059: 语法错误:“<parameter-list>”
+  LoadLibrary.c
+  正在生成代码...
