@@ -1,0 +1,7 @@
+﻿  Building 'HookKiFastCallEntry' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping Debug\HookKiFastCallEntry.inf
+  Stamping [Version] section with DriverVer=04/17/2022,16.27.1.583
+  HookKiFastCallEntry.cpp
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.cpp(3,67): error C2220: 以下警告被视为错误
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.cpp(3,67): warning C4100: “RegisterPath”: 未引用的形参
+E:\Vstudio2019\HookKiFastCallEntry\HookKiFastCallEntry\HookKiFastCallEntry.cpp(3,37): warning C4100: “DriverObject”: 未引用的形参

@@ -1,0 +1,23 @@
+﻿  Building 'HookKiFastCallEntry' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Debug\HookKiFastCallEntry.inf
+  Stamping [Version] section with DriverVer=04/17/2022,16.47.36.875
+  HookKiFastCallEntry.c
+  HookKiFastCallEntry.vcxproj -> E:\Vstudio2019\HookKiFastCallEntry\x64\Debug\HookKiFastCallEntry.sys
+  Done Adding Additional Store
+  Successfully signed: E:\Vstudio2019\HookKiFastCallEntry\x64\Debug\HookKiFastCallEntry.sys
+  
+  Driver is a Universal Driver.
+  .........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  E:\Vstudio2019\HookKiFastCallEntry\x64\Debug\HookKiFastCallEntry\hookkifastcallentry.cat
+  Done Adding Additional Store
+  Successfully signed: E:\Vstudio2019\HookKiFastCallEntry\x64\Debug\HookKiFastCallEntry\hookkifastcallentry.cat
+  
